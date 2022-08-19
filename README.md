@@ -4,23 +4,20 @@
   这是一个集成echartsjs图表的vue组件，仅适用于vue3.0以下版本，可以绘制饼图、环形图、柱形图、折线图、平滑曲线图等。参考文档：https://echarts.apache.org/zh/index.html
 
 # 使用的数据结构  
-  { name: "数据1", value: 25, group: "" },
+      { name: "数据1", value: 25, group: "" },
   
 # 安装与引入
       安装echarts库
       npm install echarts --save
  
- 全局引入echarts
- //全局引入echarts
- import * as echarts from 'echarts';
- //需要挂载到Vue原型上
- Vue.prototype.echarts = echarts;
+      //全局引入echarts
+      import * as echarts from 'echarts';
+      //需要挂载到Vue原型上
+      Vue.prototype.echarts = echarts;
 
 # 页面中引用组件 
-  假设VeCharts放在组件文件components中
-  import VeCharts from "@/components/VeCharts";
- 
- 
+      假设VeCharts放在组件文件components中
+      import VeCharts from "@/components/VeCharts";
  
 # 使用实例
 # 使用实例1
