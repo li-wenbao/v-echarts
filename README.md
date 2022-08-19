@@ -1,9 +1,6 @@
 # v-echarts
 //组件调用
-<template>
-  <div class="box-flex">
-    <div style="height:50%;width:33.33%">
-      <!-- 
+ <!-- 
       chartsId="XXX" 设置eChats图的id
       :data="data" 传入显示数据 格式为 [{group:"",name:"",value:""},]
       type="bar" 柱形图
@@ -11,7 +8,7 @@
       labelShow：显示数据数值
       labelPos="top" 数值显示在上边
       -->
-      <VeCharts
+       <VeCharts
         chartsId="tu1"
         :data="data1"
         type="bar"
@@ -21,6 +18,11 @@
         :random="random1"
         class="eChart-box-full"
       />
+<template>
+  <div class="box-flex">
+    <div style="height:50%;width:33.33%">
+     
+     
     </div>
     <div style="height:50%;width:33.33%">
       <!-- 
