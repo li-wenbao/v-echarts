@@ -73,7 +73,7 @@
     },
     addYAxis: {
       type: Object,
-      default: () => {}
+      default: () => {}  //设置第二条y轴的信息 可在使用时自定义一个对象 配合
     },
     showYAxis: {
       type: Boolean, //Y轴坐标显示
