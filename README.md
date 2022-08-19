@@ -45,22 +45,17 @@
         class="eChart-box-full"
       />
       
-      
-<template>
-  <div class="box-flex">
-    <div style="height:50%;width:33.33%">
-     
-    </div>
-    <div style="height:50%;width:33.33%">
-      <!-- 
+      使用实例3.
+      参数说明：
       chartsId="XXX" 设置eChats图的id
       :data="data" 传入显示数据 格式为 [{group:"",name:"",value:""},]
       :dataType="3" 三维数据会显示图例
       type="bar" 柱形图
       labelShow：显示数据数值
       labelPos="top" 数值显示在上边
-      -->
-      <VeCharts
+      
+      使用组件：
+       <VeCharts
         chartsId="tu32456"
         :data="data2"
         :dataType="3"
@@ -70,9 +65,8 @@
         :random="random2"
         class="eChart-box-full"
       />
-    </div>
-    <div style="height:50%;width:33.33%">
-      <!-- 
+      使用实例4.
+      参数说明：
       chartsId="XXX" 设置eChats图的id
       :data="data" 传入显示数据 格式为 [{group:"",name:"",value:""},]
       type="bar" 折线图
@@ -80,7 +74,8 @@
       labelShow：显示数据数值
       areaStyle 设置areaStyle 三维柱形图转为堆叠柱形图
       labelPos="top" 数值显示在上边
-      -->
+      
+      使用组件：
       <VeCharts
         chartsId="tu6114264"
         :data="data2"
@@ -92,9 +87,9 @@
         :random="random2"
         class="eChart-box-full"
       />
-    </div>
-    <div style="height:50%;width:33.33%">
-      <!-- 
+      
+      使用实例5.
+      参数说明：
       chartsId="XXX" 设置eChats图的id
       :data="data" 传入显示数据 格式为 [{group:"",name:"",value:""},]
       chartsId="XXX" 设置eChats图的id  
@@ -102,7 +97,8 @@
       labelShow：显示数据数值
       :markLine="marker" 设置平均线
       labelPos="top" 数值显示在上边
-      -->
+      
+      使用组件：
       <VeCharts
         chartsId="tu1324543"
         :data="data1"
@@ -113,9 +109,10 @@
         :random="random1"
         class="eChart-box-full"
       />
-    </div>
-    <div style="height:50%;width:33.33%">
-      <!-- 
+      
+      
+      使用实例6.
+      参数说明：
       chartsId="XXX" 设置eChats图的id
       :data="data" 传入显示数据 格式为 [{group:"",name:"",value:""},]
       type="line" 折线图
@@ -123,8 +120,9 @@
       labelShow：显示数据数值
       :markLine="marker" 设置平均线
       labelPos="top" 数值显示在上边
-      -->
-      <VeCharts
+      
+      使用组件：
+       <VeCharts
         chartsId="tu4353"
         :data="data1"
         type="line"
@@ -134,9 +132,9 @@
         :random="random1"
         class="eChart-box-full"
       />
-    </div>
-    <div style="height:50%;width:33.33%">
-      <!-- 
+      
+      使用实例7.
+      参数说明：
       chartsId="XXX" 设置eChats图的id
       :data="data" 传入显示数据 格式为 [{group:"",name:"",value:""},]
       type="line" 折线图
@@ -145,7 +143,8 @@
       areaStyle 设置面积图 针对line图有用
       :markLine="marker" 设置平均线
       labelPos="top" 数值显示在上边
-      -->
+      
+      使用组件：
       <VeCharts
         chartsId="tu43533345"
         :data="data1"
@@ -157,9 +156,10 @@
         :random="random1"
         class="eChart-box-full"
       />
-    </div>
-    <div style="height:50%;width:33.33%">
-      <!-- 
+      
+      
+      使用实例8.
+      参数说明：
       chartsId="XXX" 设置eChats图的id
       :data="data" 传入显示数据 格式为 [{group:"",name:"",value:""},]
       type="line" 折线图
@@ -169,8 +169,9 @@
       areaStyleColor="#f0f" 设置areaStyleColor为面积图添加自定义颜色
       :markLine="marker" 设置平均线
       labelPos="top" 数值显示在上边
-      -->
-      <VeCharts
+      
+       使用组件：
+       <VeCharts
         chartsId="tu4353255"
         :data="data1"
         type="line"
@@ -182,9 +183,10 @@
         :random="random1"
         class="eChart-box-full"
       />
-    </div>
-    <div style="height:50%;width:33.33%">
-      <!-- 
+      
+            
+      使用实例9.
+      参数说明：
       chartsId="XXX" 设置eChats图的id
       :data="data" 传入显示数据 格式为 [{group:"",name:"",value:""},]
       type="line" 折线图
@@ -192,8 +194,10 @@
       labelShow：显示数据数值
       :markLine="marker" 设置平均线
       labelPos="top" 数值显示在上边
-      -->
-      <VeCharts
+      
+      
+      使用组件：
+       <VeCharts
         chartsId="tu43533435"
         :data="data2"
         type="line"
@@ -204,9 +208,10 @@
         :random="random2"
         class="eChart-box-full"
       />
-    </div>
-    <div style="height:50%;width:33.33%">
-      <!-- 
+      
+            
+      使用实例10.
+      参数说明：
       chartsId="XXX" 设置eChats图的id
       :data="data" 传入显示数据 格式为 [{group:"",name:"",value:""},]
       :typeArr="['line', 'bar', 'bar']" 设置混合图形 折线图柱形图混和
@@ -217,7 +222,8 @@
       isSmooth 设置为平滑曲线图
       labelShow：显示数据数值
       labelPos="top" 数值显示在上边
-      -->
+      
+      使用组件：
       <VeCharts
         chartsId="tu32435df"
         :data="data2"
@@ -231,9 +237,10 @@
         :random="random2"
         class="eChart-box-full"
       />
-    </div>
-    <div style="height:50%;width:33.33%">
-      <!-- 
+      
+            
+      使用实例11.
+      参数说明：
       chartsId="XXX" 设置eChats图的id
       :data="data" 传入显示数据 格式为 [{group:"",name:"",value:""},]
       :typeArr="['line', 'bar', 'bar']" 设置混合图形 折线图柱形图混和
@@ -244,7 +251,8 @@
       isSmooth 设置为平滑曲线图
       labelShow：显示数据数值
       labelPos="top" 数值显示在上边
-      -->
+            
+      使用组件：
       <VeCharts
         chartsId="tu324397778"
         :data="data3"
@@ -260,9 +268,10 @@
         :random="random3"
         class="eChart-box-full"
       />
-    </div>
-    <div style="height:50%;width:33.33%">
-      <!-- 
+      
+           
+      使用实例12.
+      参数说明：
       chartsId="XXX" 设置eChats图的id
       :data="data" 传入显示数据 格式为 [{group:"",name:"",value:""},]
       stackType 设置半堆叠图 需要配合 dataIndex 如 dataIndex=1 第二项开始堆叠
@@ -271,7 +280,8 @@
       isSmooth 设置为平滑曲线图
       labelShow：显示数据数值
       labelPos="top" 数值显示在上边
-      -->
+      
+      使用组件：
       <VeCharts
         chartsId="tu32435232435"
         :data="data2"
@@ -284,6 +294,72 @@
         :random="random2"
         class="eChart-box-full"
       />
+      
+      
+<template>
+  <div class="box-flex">
+    <div style="height:50%;width:33.33%">
+     
+    </div>
+    <div style="height:50%;width:33.33%">
+      <!-- 
+
+      -->
+
+    </div>
+    <div style="height:50%;width:33.33%">
+      <!-- 
+
+      -->
+
+    </div>
+    <div style="height:50%;width:33.33%">
+      <!-- 
+
+      -->
+
+    </div>
+    <div style="height:50%;width:33.33%">
+      <!-- 
+
+      -->
+
+    </div>
+    <div style="height:50%;width:33.33%">
+      <!-- 
+
+      -->
+
+    </div>
+    <div style="height:50%;width:33.33%">
+      <!-- 
+
+      -->
+
+    </div>
+    <div style="height:50%;width:33.33%">
+      <!-- 
+
+      -->
+
+    </div>
+    <div style="height:50%;width:33.33%">
+      <!-- 
+
+      -->
+
+    </div>
+    <div style="height:50%;width:33.33%">
+      <!-- 
+
+      -->
+
+    </div>
+    <div style="height:50%;width:33.33%">
+      <!-- 
+
+      -->
+
     </div>
     <div style="height:50%;width:33.33%">
       <!-- 
