@@ -1,9 +1,28 @@
-# v-echarts
-说明：
-这是一个集成echarts图表的vue组件，可以绘制饼图、环形图、柱形图、折线图、平滑曲线图等。
+# 组件名称 
+  v-echarts
+# 说明：
+  这是一个集成echartsjs图表的vue组件，仅适用于vue3.0以下版本，可以绘制饼图、环形图、柱形图、折线图、平滑曲线图等。参考文档：https://echarts.apache.org/zh/index.html
 
-适用的数据结构：  { name: "数据1", value: 25, group: "" },
+# 使用的数据结构  
+  { name: "数据1", value: 25, group: "" },
+  
+# 安装与引入
+ 安装echarts库
+ npm install echarts --save
+ 
+ 全局引入echarts
+ //全局引入echarts
+ import * as echarts from 'echarts';
+ //需要挂载到Vue原型上
+ Vue.prototype.echarts = echarts;
 
+# 页面中引用组件 
+  假设VeCharts放在组件文件components中
+  import VeCharts from "@/components/VeCharts";
+ 
+ 
+ 
+# 使用实例
 # 使用实例1
      参数说明：
      chartsId="XXX" 设置eChats图的id
@@ -391,132 +410,3 @@
         class="eChart-box-full"
       />
       
-<script>
-import VeCharts from "@/components/VeCharts";
-export default {
-  components: {
-    VeCharts
-  },
-  data() {
-    return {
-      random1: 0,
-      data1: [],
-      random2: 0,
-      data2: [],
-      data3: [],
-      random3: 0,
-      addYAxis: {
-        type: "value",
-        name: "温度",
-        min: 0,
-        max: 45,
-        interval: 5,
-        axisLabel: {
-          formatter: "{value} °C"
-        }
-      },
-      seriesItemStyle: {
-        borderRadius: 10,
-        borderColor: "#fff",
-        borderWidth: 2
-      },
-      marker: {
-        silent: true,
-        itemStyle: {
-          color: "#f0f"
-        },
-        lineStyle: {
-          color: "#f0f"
-        },
-        data: [
-          {
-            yAxis: 25
-          }
-        ]
-      },
-      labelObj: {
-        rotate: 90,
-        align: "left",
-        verticalAlign: "middle",
-        position: "insideBottom", 
-        distance: 15,
-        formatter: "{c}{name|{a}}",
-        fontSize: 16,
-        rich: {
-          name: {}
-        }
-      }
-    };
-  },
-  mounted() {
-    this.data1 = [
-      { name: "数据1", value: 25, group: "" },
-      { name: "数据2", value: 20, group: "" },
-      { name: "数据3", value: 45, group: "" },
-      { name: "数据4", value: 35, group: "" },
-      { name: "数据5", value: 30, group: "" },
-      { name: "数据6", value: 15, group: "" }
-    ];
-    this.random1 = Math.random();
-
-    this.data2 = [
-      { name: "数据1", value: 25, group: "温度" },
-      { name: "数据2", value: 20, group: "温度" },
-      { name: "数据3", value: 45, group: "温度" },
-      { name: "数据4", value: 35, group: "温度" },
-      { name: "数据5", value: 30, group: "温度" },
-      { name: "数据6", value: 15, group: "温度" },
-      { name: "数据1", value: 10, group: "降水量" },
-      { name: "数据2", value: 5, group: "降水量" },
-      { name: "数据3", value: 22, group: "降水量" },
-      { name: "数据4", value: 47, group: "降水量" },
-      { name: "数据5", value: 71, group: "降水量" },
-      { name: "数据6", value: 81, group: "降水量" },
-      { name: "数据1", value: 3, group: "蒸发量" },
-      { name: "数据2", value: 8, group: "蒸发量" },
-      { name: "数据3", value: 10, group: "蒸发量" },
-      { name: "数据4", value: 14, group: "蒸发量" },
-      { name: "数据5", value: 16, group: "蒸发量" },
-      { name: "数据6", value: 18, group: "蒸发量" }
-    ];
-    this.random2 = Math.random();
-
-    this.data3 = [
-      { name: "1月", value: 0, group: "温度" },
-      { name: "2月", value: 8, group: "温度" },
-      { name: "3月", value: 13, group: "温度" },
-      { name: "4月", value: 15, group: "温度" },
-      { name: "5月", value: 16, group: "温度" },
-      { name: "6月", value: 22, group: "温度" },
-      { name: "1月", value: 10, group: "降水量" },
-      { name: "2月", value: 5, group: "降水量" },
-      { name: "3月", value: 22, group: "降水量" },
-      { name: "4月", value: 47, group: "降水量" },
-      { name: "5月", value: 71, group: "降水量" },
-      { name: "6月", value: 81, group: "降水量" }
-    ];
-    this.random3 = Math.random();
-  },
-  methods: {}
-};
-</script>
-
-<style scoped>
-.box-flex {
-  display: flex;
-  flex-wrap: wrap;
-  height: 100%;
-  width: 100%;
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
-/* 
-.eChart-box-full 一般都是这样 
-可以放在项目得公共样式里
-*/
-.eChart-box-full {
-  width: 100%;
-  height: 100%;
-}
-</style>
