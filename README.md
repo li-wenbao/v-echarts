@@ -1,13 +1,14 @@
 # v-echarts
 //组件调用
- <!-- 
+      参数说明：
       chartsId="XXX" 设置eChats图的id
       :data="data" 传入显示数据 格式为 [{group:"",name:"",value:""},]
       type="bar" 柱形图
       showBackground:显示背景
       labelShow：显示数据数值
       labelPos="top" 数值显示在上边
-      -->
+      
+       
        <VeCharts
         chartsId="tu1"
         :data="data1"
