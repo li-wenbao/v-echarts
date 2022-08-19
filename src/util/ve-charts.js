@@ -1,5 +1,31 @@
-export let eChartsDataFormate = {
 
+/**
+ * 检测数组是否存在
+ * @param obj
+ * @returns {Boolean}
+ */
+Array.prototype.contains = function (obj) {
+    var i = this.length;
+    while (i--) {
+        if (this[i] === obj) {
+            return true;
+        }
+    }
+    return false;
+};
+/**
+ * 数组中最大值 最小值
+ * @param array
+ * @returns
+ */
+Array.prototype.max = function () {
+    return Math.max.apply({}, this);
+};
+Array.prototype.min = function () {
+    return Math.min.apply({}, this);
+};
+
+export let echartsDataFormate = {
     /**
      *整理数据没有分组类型的，适合饼图
      */
@@ -642,4 +668,3 @@ export let eChartsDataFormate = {
         return {groups: groups, category: names, series: series};
     },
 };
-
