@@ -5,24 +5,24 @@
 适用的数据结构：  { name: "数据1", value: 25, group: "" },
 
 # 使用实例1.
-参数说明：
-chartsId="XXX" 设置eChats图的id
-:data="data" 传入显示数据 格式为 [{group:"",name:"",value:""},]
-type="bar" 柱形图
-showBackground:显示背景
-labelShow：显示数据数值
-labelPos="top" 数值显示在上边
-使用组件：
-<VeCharts
-  chartsId="tu1"
-  :data="data1"
-   type="bar"
-   showBackground
-   labelShow
-   labelPos="top"
-   :random="random1"
-   class="eChart-box-full"
- />
+     参数说明：
+     chartsId="XXX" 设置eChats图的id
+     :data="data" 传入显示数据 格式为 [{group:"",name:"",value:""},]
+     type="bar" 柱形图
+     showBackground:显示背景
+     labelShow：显示数据数值
+     labelPos="top" 数值显示在上边
+     使用组件：
+     <VeCharts
+      chartsId="tu1"
+      :data="data1"
+      type="bar"
+      showBackground
+      labelShow
+      labelPos="top"
+      :random="random1"
+      class="eChart-box-full"
+    />
       
      # 使用实例2.
       参数说明：
