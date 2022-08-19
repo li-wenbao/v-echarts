@@ -7,8 +7,8 @@
   { name: "数据1", value: 25, group: "" },
   
 # 安装与引入
- 安装echarts库
- npm install echarts --save
+      安装echarts库
+      npm install echarts --save
  
  全局引入echarts
  //全局引入echarts
