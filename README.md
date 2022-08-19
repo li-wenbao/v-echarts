@@ -4,7 +4,7 @@
 
 适用的数据结构：  { name: "数据1", value: 25, group: "" },
 
-# 使用实例1.
+# 使用实例1
      参数说明：
      chartsId="XXX" 设置eChats图的id
      :data="data" 传入显示数据 格式为 [{group:"",name:"",value:""},]
@@ -24,7 +24,7 @@
       class="eChart-box-full"
     />
       
-     # 使用实例2.
+# 使用实例2
       参数说明：
       chartsId="XXX" 设置eChats图的id
       :data="data" 传入显示数据 格式为 [{group:"",name:"",value:""},]
@@ -50,7 +50,7 @@
         class="eChart-box-full"
       />
       
-      # 使用实例3.
+# 使用实例3
       参数说明：
       chartsId="XXX" 设置eChats图的id
       :data="data" 传入显示数据 格式为 [{group:"",name:"",value:""},]
@@ -70,7 +70,7 @@
         class="eChart-box-full"
       />
       
-      # 使用实例4.
+# 使用实例4
       参数说明：
       chartsId="XXX" 设置eChats图的id
       :data="data" 传入显示数据 格式为 [{group:"",name:"",value:""},]
@@ -92,7 +92,7 @@
         class="eChart-box-full"
       />
       
-      # 使用实例5.
+# 使用实例5
       参数说明：
       chartsId="XXX" 设置eChats图的id
       :data="data" 传入显示数据 格式为 [{group:"",name:"",value:""},]
@@ -113,7 +113,7 @@
         class="eChart-box-full"
       />
       
-      # 使用实例6.
+# 使用实例6
       参数说明：
       chartsId="XXX" 设置eChats图的id
       :data="data" 传入显示数据 格式为 [{group:"",name:"",value:""},]
@@ -134,7 +134,7 @@
         class="eChart-box-full"
       />
       
-      # 使用实例7.
+# 使用实例7
       参数说明：
       chartsId="XXX" 设置eChats图的id
       :data="data" 传入显示数据 格式为 [{group:"",name:"",value:""},]
@@ -157,7 +157,7 @@
         class="eChart-box-full"
       />
       
-      # 使用实例8.
+# 使用实例8
       参数说明：
       chartsId="XXX" 设置eChats图的id
       :data="data" 传入显示数据 格式为 [{group:"",name:"",value:""},]
@@ -182,7 +182,7 @@
         class="eChart-box-full"
       />
       
-      # 使用实例9.
+# 使用实例9
       参数说明：
       chartsId="XXX" 设置eChats图的id
       :data="data" 传入显示数据 格式为 [{group:"",name:"",value:""},]
@@ -204,7 +204,7 @@
         class="eChart-box-full"
       />
       
-      # 使用实例10.
+# 使用实例10
       参数说明：
       chartsId="XXX" 设置eChats图的id
       :data="data" 传入显示数据 格式为 [{group:"",name:"",value:""},]
@@ -231,7 +231,7 @@
         class="eChart-box-full"
       />
       
-      # 使用实例11.
+# 使用实例11
       参数说明：
       chartsId="XXX" 设置eChats图的id
       :data="data" 传入显示数据 格式为 [{group:"",name:"",value:""},]
@@ -260,7 +260,7 @@
         class="eChart-box-full"
       />
       
-      # 使用实例12.
+# 使用实例12
       参数说明：
       chartsId="XXX" 设置eChats图的id
       :data="data" 传入显示数据 格式为 [{group:"",name:"",value:""},]
@@ -284,7 +284,7 @@
         class="eChart-box-full"
       />
       
-      # 使用实例13.
+# 使用实例13
       参数说明：
       chartsId="XXX" 设置eChats图的id
       :data="data" 传入显示数据 格式为 [{group:"",name:"",value:""},]
@@ -306,7 +306,7 @@
         class="eChart-box-full"
       />
       
-      # 使用实例14.
+# 使用实例14
       参数说明：
       chartsId="XXX" 设置eChats图的id
       :data="data" 传入显示数据 格式为 [{group:"",name:"",value:""},]
@@ -332,7 +332,7 @@
         class="eChart-box-full"
       />
       
-       # 使用实例15.
+# 使用实例15
       参数说明：
       chartsId="XXX" 设置eChats图的id
       :data="data" 传入显示数据 格式为 [{group:"",name:"",value:""},]
@@ -351,7 +351,7 @@
         class="eChart-box-full"
       />
       
-      # 使用实例16.
+# 使用实例16
       参数说明：
       chartsId="XXX" 设置eChats图的id
       :data="data" 传入显示数据 格式为 [{group:"",name:"",value:""},]
@@ -370,7 +370,7 @@
         class="eChart-box-full"
       />
       
-      # 使用实例17.
+# 使用实例17
       参数说明：
       chartsId="XXX" 设置eChats图的id
       :data="data" 传入显示数据 格式为 [{group:"",name:"",value:""},]
