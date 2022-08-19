@@ -2,6 +2,9 @@
   v-echarts
 # 说明：
   这是一个集成echartsjs图表的vue组件，仅适用于vue3.0以下版本，可以绘制饼图、环形图、柱形图、折线图、平滑曲线图等。参考文档：https://echarts.apache.org/zh/index.html
+  
+# v-echarts项目运行
+    npm run dev
 
 # 使用的数据结构  
       { name: "数据1", value: 25, group: "" },
