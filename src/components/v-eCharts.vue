@@ -77,7 +77,7 @@ export default {
       //barData.groups, 作为图例
       //barData.series, 图表内容
       let myOption = {};
-      // 基于准备好的dom，初始化echarts实例
+      // 基于准备好的dom，初始化echarts实例 
       let myChart = this.echarts.init(document.getElementById(this.chartsId));
       // 绘制图表
       myChart.setOption(myOption, true);

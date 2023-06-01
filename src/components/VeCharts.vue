@@ -421,7 +421,7 @@ export default {
       //barData.series, 图表内容
       let myOption = {},
         seriesData = {},
-        xAxisSet = {},
+        xAxisSet = {}, 
         yAxisSet = {},
         titleSet = {};
       // 绑定图表id、

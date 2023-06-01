@@ -6,6 +6,11 @@ import router from './router'
 Vue.config.productionTip = false
 import * as echarts from 'echarts';
 Vue.prototype.echarts = echarts;
+import 'vue-block/dist/block.css';
+import block from 'vue-block';
+Vue.use(block);
+import WbTools from 'wb-tools';
+Vue.use(WbTools);
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
